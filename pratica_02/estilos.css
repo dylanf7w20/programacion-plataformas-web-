@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+#top {
+  height: 100px;
+  background-color: rosybrown;
+}
+#left {
+  width: 250px;
+  height: 100%;
+  background-color: whitesmoke;
+  float: left;
+  margin-bottom: -100px;
+}
+#right {
+  background-color: lightblue;
+  height: 100%;
+  margin-bottom: -100px;
+}
+#bot {
+  clear: right;
+  height: 100px;
+  background-color: rosybrown;
+  margin-top: -100px;
+  z-index: 100;
+  position: relative;
+}
+
+p {
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.monedas{
+  width: 12px;
+  height: 12px;
+  left:38%;
+  position: relative;
+}

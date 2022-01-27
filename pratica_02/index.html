@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript AJAX</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <div id="top">
+        <h2>Convertor de Monedas</h2>
+        <p>A continuación se muestra la conversión de 10 distintas monedas a Euros, Dolares, Libras Y Pesos Mexicanos:</p>
+        <label>Seleccionar tipo de cambio: </label>
+        <select id="base_currency" onchange="base_currency()">
+            <option value="NULL"></option>
+            <option value="USD">Dolares</option>
+            <option value="EUR">Euros </option>
+            <option value="MXN">Pesos Mexicanos</option>
+            <option value="GBP">Libras</option>
+        </select>
+    </div>
+    <div id="left">
+        <br>
+        <p>Moneda:</p>
+        <br>
+        <p>AED <img class="monedas" src="Monedas/aed.png"></p>
+        <p>ZAR <img class="monedas" src="Monedas/zar.jfif"></p>
+        <p>BSD <img class="monedas" src="Monedas/bsd.jfif"></p>
+        <p>BTC <img class="monedas" src="Monedas/btc.jfif"></p>
+        <p>AMD <img class="monedas" src="Monedas/amd.jfif"></p>
+        <p>CAD <img class="monedas" src="Monedas/cad.jpg"></p>
+        <p>CUC <img class="monedas" src="Monedas/cuc.jfif"></p>
+        <p>CNY <img class="monedas" src="Monedas/cny.jfif"></p>
+        <p>BYR <img class="monedas" src="Monedas/byr.jfif"></p>
+        <p>LTC <img class="monedas" src="Monedas/ltc.webp"></p>
+        
+    </div>
+    <div id="right">
+        <ul>Conversión:</ul>
+        <div id="documento"></div>
+    </div>
+    <div id="bot">Copyright &copy; 2021 Dylan Tumaille.</div>
+</body>
+</html>
