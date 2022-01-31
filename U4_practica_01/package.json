@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "name": "u4_practica_01",
+  "version": "1.0.0",
+  "main": "Async_Await.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Tumaille",
+  "license": "GPL-3.0",
+  "description": ""
+}
